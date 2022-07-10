@@ -7,7 +7,7 @@ from collections import defaultdict
 
 
 class Stroke:
-    def __init__(self, db_path="../database/zi-dataset/zi-dataset.tsv") -> None:
+    def __init__(self, db_path="database/zi-dataset/zi-dataset.tsv") -> None:
         self.db_path = db_path
         self.__get_character_db()
 

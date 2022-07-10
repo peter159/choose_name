@@ -3,7 +3,7 @@
 # 三才五格
 # ref: http://www.360doc.com/content/14/0208/22/8064468_350840429.shtml
 
-from stroke_count import Stroke
+from .stroke_count import Stroke
 
 
 class Pingge:
@@ -50,11 +50,11 @@ if __name__ == "__main__":
     stroke = Stroke()
     # pg = Pingge(surname="司徒", name="世民", stroke_model=stroke)
     # pg = Pingge(surname="李", name="世民", stroke_model=stroke)
-    # pg = Pingge(surname="林", name="谊", stroke_model=stroke)
+    pg = Pingge(surname="林", name="谊", stroke_model=stroke)
     # pg = Pingge(surname="林", name="胤", stroke_model=stroke)
-    pg = Pingge(surname="林", name="道华", stroke_model=stroke)
+    # pg = Pingge(surname="林", name="道华", stroke_model=stroke)
     # pg = Pingge(surname="谢", name="瑞兰", stroke_model=stroke)
-    # pg = Pingge(surname="林", name="子馨", stroke_model=stroke)
+    pg = Pingge(surname="林", name="子馨", stroke_model=stroke)
     print("tiange - 祖先: ", pg.tiange())
     print("renge - 一生: ", pg.renge())
     print("dige - 前半生: ", pg.dige())
